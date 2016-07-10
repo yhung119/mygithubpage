@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+		.navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+        }
+        
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+    }
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.container-fluid{
+	background-color: white;
+}
+
+/* visited link grey */
+#top-menu a:visited {
+	color: #777;
+}
+/* mouse over link blue */
+#top-menu a:hover {
+	color: #0CF;
+}
+
+
+.jumbotron{
+	height: 700px;
+}
+.content{
+	position:relative;
+	top:50%;
+	left:50%;
+	right:auto;
+	bottom: auto;
+	width: 100%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
